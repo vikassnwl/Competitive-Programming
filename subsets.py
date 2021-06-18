@@ -25,7 +25,7 @@ def subsets(nums):
         result = []
         for i in range(len(nums)):
             """
-            checking for set bit
+            checking if the i-th bit is set
             and if bit is set then include the number
             from nums to the result
             """
