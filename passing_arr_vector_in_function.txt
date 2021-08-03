@@ -1,0 +1,22 @@
+class Solution {
+public:
+    //int sol(int dp[], int n){
+    int sol(vector<int> &dp, int n){
+        if(n<2){
+            return n;
+        }
+        if(!dp[n]){
+            dp[n] = sol(dp, n-1)+sol(dp, n-2);
+        }
+        return dp[n];
+    }
+    int fib(int n) {
+        vector<int> dp(n+1);
+        
+        //int dp[n+1];
+        //memset(dp, 0, sizeof(dp));
+        
+        //static int dp[31];
+        return sol(dp, n);
+    }
+};
