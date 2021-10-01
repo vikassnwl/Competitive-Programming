@@ -14,7 +14,7 @@ int dfs(int node, int par){
 	return sub[node];
 }
 
-int main(){	
+int main()
 	ios::sync_with_stdio(0);
 	cin.tie(0);
 	
