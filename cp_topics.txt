@@ -1,0 +1,13 @@
+1. Greedy *
+2. Bit Manipulation *
+3. Number Theory *
+4. Combinatorics *
+5. Binary Search *
+6. Tree *
+7. Graphs *
+8. Recursion *
+9. Dynamic Programming *
+10. String Algorithms *
+11. Geometry *
+12. Game Theory *
+13. Advance Data Structures *

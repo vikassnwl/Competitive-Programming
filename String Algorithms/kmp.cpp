@@ -17,7 +17,7 @@ tree_order_statistics_node_update>;
 vector<int> prefix_function(string s){
 	int n = (int)s.length();
 	vector<int> pi(n);
-	for(int i=01; i<n; i++){
+	for(int i=1; i<n; i++){
 		int j = pi[i-1];
 		while(j>0 && s[i]!=s[j]){
 			j = pi[j-1];
